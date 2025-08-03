@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kephar Moses - Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header class="main-header">
+      <div class="container header-container">
+        <a href="#" class="logo">Kephar Moses</a>
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <button class="mobile-menu-button" aria-label="Open Menu">
+            <svg
+              class="w-6 h-6"
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+          <div class="mobile-menu-dropdown">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home">
+        <div class="container hero-content">
+          <img src="Assets/profile.jpg" alt="Your Photo" class="profile-pic" />
+          <h1>Hi, I'm Kephar Moses</h1>
+          <p class="subtitle">
+            I am a highly motivated and dedicated undergraduate Software
+            Engineer and Data Analyst with a passion for creating innovative and
+            efficient software solutions. Adept at designing, developing, and
+            implementing innovative software solutions and leveraging data to
+            drive strategic decision-making and collaborating with
+            cross-functional teams to deliver high-quality projects within
+            established tim
+          </p>
+          <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <p>
+                Hi, I'm Kephar Moses -- a passionate web developer who thrives on solving real-world problems with clean, scalable code. What began as a curiosity for how websites and systems work has evolved into a deep passion for creating impactful digital experiences.
+              </p>
+              <p style="margin-top: 1rem">
+                I love working with modern web technologies to build intuitive, responsive, and user-focused applications. Whether it's developing robust backend APIs or crafting dynamic frontends, I enjoy every part of the development process. I'm constantly exploring new tools, frameworks, and best practices to level up my skills and stay ahead in this fast-paced field.
+              </p>
+              <p style="margin-top: 1rem">
+                Beyond the code, I care about building solutions that matter—solutions that improve lives, connect people, or make everyday tasks a little bit easier.
+              </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <div class="container">
+          <h2 class="section-title">Programming Languages & Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <img
+                src="https://placehold.co/64x64/1f2937/9ca3af?text=HTML5"
+                alt="HTML5 Icon"
+              />
+              <h3>HTML5</h3>
+            </div>
+            <div class="skill-item">
+              <img
+                src="https://placehold.co/64x64/1f2937/9ca3af?text=CSS3"
+                alt="CSS3 Icon"
+              />
+              <h3>CSS3</h3>
+            </div>
+            <div class="skill-item">
+              <img
+                src="https://placehold.co/64x64/1f2937/9ca3af?text=JS"
+                alt="JavaScript Icon"
+              />
+              <h3>JavaScript</h3>
+            </div>
+            <div class="skill-item">
+              <img
+                src="https://placehold.co/64x64/1f2937/9ca3af?text=Python"
+                alt="Python Icon"
+              />
+              <h3>Python</h3>
+            </div>
+            <div class="skill-item">
+              <img
+                src="https://placehold.co/64x64/1f2937/9ca3af?text=Git"
+                alt="Git Icon"
+              />
+              <h3>Git & GitHub</h3>
+            </div>
+            <div class="skill-item">
+              <img
+                src="https://placehold.co/64x64/1f2937/9ca3af?text=MySQL"
+                alt="MySQL Icon"
+              />
+              <h3>MySQL</h3>
+            </div>
+            <div class="skill-item">
+              <img
+                src="https://placehold.co/64x64/1f2937/9ca3af?text=Linux"
+                alt="Linux Icon"
+              />
+              <h3>Linux</h3>
+            </div>
+            <div class="skill-item">
+              <img
+                src="https://placehold.co/64x64/1f2937/9ca3af?text=C"
+                alt="C Icon"
+              />
+              <h3>C</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <div class="container">
+          <h2 class="section-title">My Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-card-content">
+                <h3>RETRIEVAL-SHA-CHATBOT</h3>
+                <p>
+                  A backend chatbot application built with FastAPI (Python) to
+                  assist users with information on a Specific Health Area (SHA)
+                  in Kenya. It utilizes hybrid AI techniques—combining
+                  retrieval-based and generative models—to provide accurate
+                  health-related responses.
+                </p>
+                <a
+                  href="https://github.com/amutsamoses/RETRIEVAL-SHA-CHATBOT"
+                  target="_blank"
+                  rel="noopener"
+                  >View GitHub &rarr;</a
+                >
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-content">
+                <h3>DriveOps: Vehicle Management System</h3>
+                <p>
+                  A streamlined vehicle management and rental platform designed
+                  to simplify operations for car rental companies. It features
+                  real-time vehicle tracking, client management, and scheduling
+                  tools to optimize rental workflows.
+                </p>
+                <a
+                  href="https://github.com/amutsamoses/DrivesOps-Mng"
+                  target="_blank"
+                  rel="noopener"
+                  >View GitHub &rarr;</a
+                >
+              </div>
+            </div>
+            <div class="project-card">
+                <div class="project-card-content">
+                  <h3>Tic-Tac-Toe Game</h3>
+                  <p>
+                    A classic two-player Tic-Tac-Toe game implemented using JavaScript, HTML, and CSS. 
+                    Features dynamic win detection, responsive UI, and a minimalistic game loop for a smooth player experience.
+                  </p>
+                  <a href="https://github.com/amutsamoses/Tic-Tac-Toe-Game" target="_blank" rel="noopener">View GitHub &rarr;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education & Interests Section -->
+<section id="education">
+    <div class="container">
+      <div class="education-interests-grid">
+        <div class="education-box">
+          <h3>Educational Background</h3>
+          <p class="university">KIRINYAGA UNIVERSITY</p>
+          <p class="degree">Bachelor's Degree – Ongoing (2021 - Present)</p>
+          <p>
+            I’m currently pursuing my undergraduate studies in Computer Science,
+            where I’ve built a strong foundation in programming, algorithms, data
+            structures, and software engineering. My academic journey continues
+            to fuel my passion for solving real-world problems through code.
+          </p>
+          <a
+            href="./Assets/My Resume.pdf"
+            download="Myresume-CV.pdf"
+            class="cv-button"
+            >Download My CV</a
+          >
+        </div>
+  
+        <div class="interests-box">
+          <h3>Interests</h3>
+          <ul class="interests-list">
+            <li>
+              <span class="arrow">&rarr;</span>
+              <strong>Backend Development:</strong> Crafting efficient, scalable
+              server-side applications and APIs using modern tools and best practices.
+            </li>
+            <li>
+              <span class="arrow">&rarr;</span>
+              <strong>AI & Machine Learning:</strong> Exploring intelligent systems,
+              models, and automation that drive smarter technology.
+            </li>
+            <li>
+              <span class="arrow">&rarr;</span>
+              <strong>Cybersecurity:</strong> Passionate about securing applications,
+              data, and digital infrastructures from threats.
+            </li>
+            <li>
+              <span class="arrow">&rarr;</span>
+              <strong>Data Science:</strong> Turning raw data into insights using
+              statistical techniques and machine learning.
+            </li>
+            <li>
+              <span class="arrow">&rarr;</span>
+              <strong>Software Development:</strong> Designing and building robust
+              software systems that solve real-world problems.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact Me</h2>
+          <form action="#" method="POST" class="contact-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" name="name" id="name" autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                autocomplete="email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-links">
+          <a href="https://github.com/amutsamoses" target="_blank">
+            <i class="fab fa-github"></i> GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/moses-kephar-304959270/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+          <a href="https://x.com/its_kephar" target="_blank">
+            <i class="fab fa-x-twitter"></i> Twitter</a
+          >
+        </div>
+        <p>&copy; 2025 Kephar Moses. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
