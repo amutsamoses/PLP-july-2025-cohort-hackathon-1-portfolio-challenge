@@ -68,7 +68,7 @@ This project was built from scratch using only fundamental web technologies, as 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone [https://github.com/amutsamoses/PLP-july-2025-cohort-hackathon-1-portfolio-challenge](https://github.com/amutsamoses/PLP-july-2025-cohort-hackathon-1-portfolio-challenge)
+   git clone https://github.com/amutsamoses/PLP-july-2025-cohort-hackathon-1-portfolio-challenge
    ```
 
 2. Navigate into the project directory:
